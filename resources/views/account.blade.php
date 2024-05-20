@@ -61,7 +61,7 @@
                         </div>
                         <form id="LoginForm" action="/users" method="GET">
                             @csrf
-                            <input type="email" name="email" placeholder="Email">
+                            <input type="text" name="uname" placeholder="username">
                             <input type="password" name="pass" placeholder="Password">
                             <button type="submit" class="btn">Login</button>
                             <a href="">Forget Password</a>
